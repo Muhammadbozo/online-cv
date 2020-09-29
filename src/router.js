@@ -31,5 +31,10 @@ export default new Router({
       name: "project",
       component: Projects,
     },
+    {
+      path: "/contact",
+        name: "contact",
+        component: Contact,
+      },
   ],
 });

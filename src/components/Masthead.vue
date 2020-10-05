@@ -22,7 +22,7 @@
             <template v-slot:lead style="color: black">
               Hi there, I'm a 22 year old BSC IT Student.
               <br />
-              I created this cv using Node js and it is hosted on Heroku.
+              I created this cv using Vue js and it is hosted on Firebase.
               I put my cv online for your viewing pleasure.
             </template>
 

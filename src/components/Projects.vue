@@ -12,7 +12,7 @@
               v-if="isHovered1"
               overlay
               text-variant="dark"
-              :img-src="require('../assets/imgs/hover2.jpg')"
+               :img-src="require('../assets/imgs/hover.jpg')"
               img-alt="Card Image"
               img-height="250"
               title="Creation of a online business"
@@ -55,7 +55,7 @@
               </template>
               <div class="d-block text-center">
                 <b-img
-                  img-src="..\assets\imgs\project.jpg"
+                  :img-src="require('../assets/imgs/project.jpg')"
                   fluid
                   alt="Project Example"
                 ></b-img>
@@ -70,10 +70,10 @@
                     </b-card-text>
 
                     <b-card-text
-                      >A second paragraph of text in the card.</b-card-text
+                      >Managed  by a wonderful team of four</b-card-text
                     >
 
-                    <a href="#" class="card-link">VISIT PAGE</a>
+                    <a href="#" class="card-link">If you would like to see more,Please contact Muhammad</a>
                   </b-card>
                 </div>
               </div>
@@ -89,7 +89,7 @@
             <b-card
               v-if="isHovered2"
               overlay
-              text-variant="dark"
+              text-variant="black"
               :img-src="require('../assets/imgs/hover2.jpg')"
               img-alt="Card Image"
               img-height="250"
@@ -111,48 +111,8 @@
               title="Image Overlay"
               sub-title="Subtitle"
             >
-              <b-card-text>
-                Some quick example text to build on the card and make up the
-                bulk of the card's content.
-              </b-card-text>
-            </b-card>
-          </div>
-        </div>
-        <div class="col">
-          <div
-            :style="myStyle"
-            v-b-hover="handleHover3"
-            class="border rounded "
-          >
-            <b-card
-              v-if="isHovered3"
-              overlay
-              text-variant="dark"
-              :img-src="require('../assets/imgs/hover2.jpg')"
-              img-alt="Card Image"
-              img-height="250"
-              title="Image Overlay"
-              sub-title="Subtitle"
-              class="text-center"
-            >
-              <b-button :style="myStyle2" variant="warning" size="lg"
-                >Warning</b-button
-              >
-            </b-card>
-            <b-card
-              v-else
-              overlay
-              text-variant="white"
-              img-src="https://picsum.photos/900/250/?image=3"
-              img-height="250"
-              img-alt="Card Image"
-              title="Image Overlay"
-              sub-title="Subtitle"
-            >
-              <b-card-text>
-                Some quick example text to build on the card and make up the
-                bulk of the card's content.
-              </b-card-text>
+              
+           
             </b-card>
           </div>
         </div>
@@ -169,10 +129,10 @@ export default {
       isHovered2: false,
       isHovered3: false,
       myStyle: {
-        marginTop: "150px",
+        marginTop: "200px",
       },
       myStyle2: {
-        marginTop: "50px",
+        marginTop: "100px",
       },
       myStyle3: {
         marginTop: "80px",

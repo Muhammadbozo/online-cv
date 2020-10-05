@@ -13,11 +13,12 @@
               <b-card title="ABOUT ME" :style="myStyle">
                 <b-card-text>
                   I’m an IT guy who loves building mobile and web
-                  applications.I enjoy seeing myself do magic with code and the
-                  reactions of the people. Most importantly, I'm always eager to learn new
-                  languages/frameworks. I'm originally Potchefstroom. One of my
-                  favourite things to do in the world is going to the beach and
-                  being surrounded by water.I enjoy hiking occassionally. I also
+                  applications.My high school being Potchefstroom Boys high
+                  and not offering an IT subject I started this degree with basically
+                  no knowledge. Most importantly, I'm always eager to learn new
+                  languages/frameworks. I'm originally from Potchefstroom. One of my
+                  favourite things to do is to go to the beach and
+                  be surrounded by the water.I enjoy hiking occassionally. I also
                   enjoy Travelling, although I haven't YET seen much of the
                   world. Overall I’m passionate about technology and excited
                   about the future.

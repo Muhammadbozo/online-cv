@@ -35,7 +35,7 @@
 
               </b-card-text>
 
-              <b-card-text>A second paragraph of text in the card.</b-card-text>
+              <b-card-text></b-card-text>
             </b-card>
           </div>
         </div>
@@ -60,7 +60,7 @@
 
               </b-card-text>
 
-              <b-card-text>A second paragraph of text in the card.</b-card-text>
+              <b-card-text></b-card-text>
             </b-card>
           </div>
         </div>
@@ -78,22 +78,21 @@
               class="border border-white"
             >
               <b-card-text>
-                 I’m a IT guy who loves building mobile and web
+                 I’m a IT guy who loves building playing around with
                   applications. I enjoy working with the full technology stack,
-                  from front to backend and everything inbetween. More
-                  especially, I enjoy seeing myself do magic with code and the
-                  reactions of the people I'm working with when they see my
-                  work. Most importantly, I'm always eager to learn new
+                  learning about front to backend and everything inbetween. Rather
+                  , I enjoy seeing myself do cool things with code 
+                  . Most importantly, I'm always eager to learn new
                   languages/frameworks. I'm originally from Potchefstroom. One of my
-                  favourite things to do in the world is going to the beach and
-                  being surrounded by water.I enjoy hiking,I also
+                  favourite things to do is  is go to the beach and
+                  be surrounded by water.I enjoy hiking,I also
                   enjoy Travelling, although I haven't YET seen much of the
                   world. Overall I’m passionate about technology and excited
                   about the future.
 
               </b-card-text>
 
-              <b-card-text>A second paragraph of text in the card.</b-card-text>
+              <b-card-text></b-card-text>
             </b-card>
           </div>
         </div>

@@ -23,12 +23,7 @@
                   about the future.
                 </b-card-text>
 
-                <b-card-text
-                  >Contact Details <br /><br />
-
-                  Muhammadosman924@gmail.com <br />
-                  You can also contact me on any of the social media links at
-                  the bottom</b-card-text
+               
                 >
 
                 <a href="#" class="card-link"

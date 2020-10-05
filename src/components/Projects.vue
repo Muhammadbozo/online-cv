@@ -55,9 +55,9 @@
               </template>
               <div class="d-block text-center">
                 <b-img
-                  src="'../assets/imgs/area code on client mnagement.PNG.jpg'"
+                  img-src="..\assets\imgs\project.jpg"
                   fluid
-                  alt="Responsive image"
+                  alt="Project Example"
                 ></b-img>
               </div>
               <hr />

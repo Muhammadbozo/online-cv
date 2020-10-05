@@ -15,8 +15,8 @@
               :img-src="require('../assets/imgs/hover2.jpg')"
               img-alt="Card Image"
               img-height="250"
-              title="Project 1"
-              sub-title="Made with VueJS"
+              title="Creation of a online business"
+              sub-title="Made with Visual studio code"
               class="text-center"
             >
               <b-button
@@ -39,7 +39,7 @@
               style="opacity: 0.7"
             >
               <div>
-                <h2 :style="myStyle3">PROJECT 1</h2>
+                <h2 :style="myStyle3">Online</h2>
               </div>
             </b-card>
 
@@ -55,7 +55,7 @@
               </template>
               <div class="d-block text-center">
                 <b-img
-                  src="https://picsum.photos/1024/400/?image=41"
+                  src="'../assets/imgs/area code on client mnagement.PNG.jpg'"
                   fluid
                   alt="Responsive image"
                 ></b-img>
@@ -63,11 +63,10 @@
               <hr />
               <div>
                 <div>
-                  <b-card title="Card title" sub-title="Card subtitle">
+                  <b-card title="Kyalami Motors" sub-title="Online motor car sales company">
                     <b-card-text>
-                      Some quick example text to build on the
-                      <em>card title</em> and make up the bulk of the card's
-                      content.
+                      Created a online business in second year univeristy
+                      <em>Kyalami Motors </em> of Potchefstroom with its SQL database of clients and full on running service
                     </b-card-text>
 
                     <b-card-text

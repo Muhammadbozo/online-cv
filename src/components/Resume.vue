@@ -8,8 +8,8 @@
         <div class="col-8">
           <div>
             <b-card
-              title="Card title"
-              sub-title="Card subtitle"
+              title="Education"
+              sub-title="Studies"
               class="border border-white"
               :style="myStyle"
             >
@@ -49,8 +49,8 @@
         <div class="col-8">
           <div>
             <b-card
-              title="Card title"
-              sub-title="Card subtitle"
+              title="Work experience"
+              sub-title="Where I have worked"
               class="border border-white"
             >
               <b-card-text>
@@ -73,8 +73,8 @@
         <div class="col-8">
           <div>
             <b-card
-              title="Card title"
-              sub-title="Card subtitle"
+              title="About me"
+              sub-title="Muhammad"
               class="border border-white"
             >
               <b-card-text>

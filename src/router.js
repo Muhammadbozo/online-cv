@@ -4,6 +4,7 @@ import Masthead from "./components/Masthead";
 import About from "./components/About";
 import Resume from "./components/Resume";
 import Projects from "./components/Projects";
+import Contact from "./components/Contact"
 
 Vue.use(Router);
 

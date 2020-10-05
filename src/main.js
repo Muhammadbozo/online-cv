@@ -9,7 +9,13 @@ import "bootstrap-vue/dist/bootstrap-vue.css";
 import { BootstrapVue, IconsPlugin } from "bootstrap-vue";
 import vueScrollto from "vue-scrollto";
 import VueRouter from "vue-router";
+import axios from "axios";
 
+
+
+
+
+Vue.prototype .axios = axios;
 // Install BootstrapVue
 Vue.use(BootstrapVue);
 // Optionally install the BootstrapVue icon components plugin
@@ -21,11 +27,18 @@ Vue.use(VueRouter);
 
 Vue.config.productionTip = false;
 
+
+
+
+
 new Vue({
   router,
   store,
   render: (h) => h(App),
 }).$mount("#app");
+
+
+
 
 
 const cool = require('cool-ascii-faces');
@@ -40,3 +53,5 @@ express()
   .get('/', (req, res) => res.render('pages/index'))
   .get('/cool', (req, res) => res.send(cool()))
   .listen(PORT, () => console.log(`Listening on ${ PORT }`));
+
+

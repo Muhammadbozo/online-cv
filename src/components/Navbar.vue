@@ -30,7 +30,7 @@
       <b-nav-item
         class="bg-transparent rounded-lg border border-dark text-center text-dark"
         :style="myStyle2"
-        ><router-link :style="myStyle3" to="/about"
+        ><router-link :style="myStyle3" to="/contact"
           >CONTACT ME</router-link
         ></b-nav-item
       >
@@ -42,6 +42,8 @@
 export default {
   data() {
     return {
+      
+    
       myStyle: {
         backgroundColor: "#2F4F4F",
         paddingTop: "10px",

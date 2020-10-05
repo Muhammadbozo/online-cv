@@ -27,7 +27,7 @@
             </template>
 
             <hr class="my-4" />
-            <div v-b-hover="handleHover">
+            <div>
               <span class="ml-2">
                 <b-button
                   class="rounded-lg border border-dark "

@@ -32,7 +32,7 @@
               v-else
               overlay
               text-variant="black"
-              img-src="https://picsum.photos/900/250/?image=3"
+              :img-src="require('../assets/imgs/project.jpg')"
               img-height="250"
               img-alt="Card Image"
               class="text-center"
@@ -65,9 +65,8 @@
                 <div>
                   <b-card title="Kyalami Motors" sub-title="Online motor car sales company">
                     <b-card-text>
-                      Created a online business in second year univeristy
-                      <em>Kyalami Motors </em> of Potchefstroom with its SQL database of clients and full on running service
-                    </b-card-text>
+                      I Created a online business in second year univeristy,it was a motor car sales company.
+                      <em>Kyalami Motors </em> of Potchefstroom with a database in SQl,now having experience in SQL Queries and visual studio code.         </b-card-text>
 
                     <b-card-text
                       >Managed  by a wonderful team of four</b-card-text
@@ -93,8 +92,8 @@
               :img-src="require('../assets/imgs/hover2.jpg')"
               img-alt="Card Image"
               img-height="250"
-              title="Image Overlay"
-              sub-title="Subtitle"
+              title=""
+              sub-title=""
               class="text-center"
             >
               <b-button :style="myStyle2" variant="warning" size="lg"
@@ -108,8 +107,8 @@
               img-src="https://picsum.photos/900/250/?image=3"
               img-height="250"
               img-alt="Card Image"
-              title="Image Overlay"
-              sub-title="Subtitle"
+              title="Projects coming soon"
+              sub-title="Watch this space"
             >
               
            

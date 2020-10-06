@@ -24,6 +24,7 @@
               <br />
               I created this cv using Vue js and it is hosted on Firebase.
               I put my cv online for your viewing pleasure.
+               
             </template>
 
             <hr class="my-4" />
@@ -50,4 +51,5 @@
 export default {};
 </script>
 
-<style></style>
+<style>
+</style>

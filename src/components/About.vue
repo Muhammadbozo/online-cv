@@ -26,6 +26,7 @@
 
                
                 >
+               
 
                 <a href="#" class="card-link"
                   ><router-link to="/resume">VIEW RESUME</router-link></a

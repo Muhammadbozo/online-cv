@@ -3,7 +3,7 @@
 
     <b-card-text>
       <h1>
-      <img src="../assets/imgs/telephone.jpg" alt="">
+      
        
       
           Contact details: 
@@ -15,15 +15,24 @@
          
          || <br>
         Instagram: _muhammadosman_||</h1>
+ >    
 
-   
-                >
+
+ <section>  
+
+   <transition name="bounce">
+     <img v-if="bounce" alt="bounce" src="../assets/imgs/telephone.jpg"/>
+   </transition>
+   <button @click="bounce = !bounce">bounce</button><br>
+ </section>
          
     </b-card-text>
 
-   
-    
 
+  
+
+
+  
 
 </template>
     
@@ -31,7 +40,13 @@
     <script>
     
     export default{
-      name:'Contact details'
+      name:'Contact',
+      data() {
+        return{
+          bounce : false
+        }
+
+      }
     }
 
     
@@ -57,5 +72,29 @@ h1{
 
 }
 
+section{
+ height:200px
+
+}
+
+ .bounce-enter-active{
+   animation: bounce-in .5s;
+
+ }
+.bounce-leave-active{
+  animation: bounce-in .5s reverse;
+}
+
+@keyframes bounce-in{
+  0%{
+    transform: scale(0);
+  }
+  50%{
+    transform: scale(1.5);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
 
 </style>

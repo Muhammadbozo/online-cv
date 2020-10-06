@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "online-cv-b0c75",
+    "public": "build",
     "ignore": [
       "firebase.json",
       "**/.*",

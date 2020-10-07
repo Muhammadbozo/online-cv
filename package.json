@@ -28,7 +28,8 @@
     "execa": "latest",
     "push-dir": "^0.4.1",
     "vue-template-compiler": "^2.6.10",
-    "webpack-cli": "^3.3.12"
+    "webpack-cli": "^3.3.12",
+    "publishConfig": { "registry": "https://npm.pkg.github.com/" }
   },
   "postcss": {
     "plugins": {

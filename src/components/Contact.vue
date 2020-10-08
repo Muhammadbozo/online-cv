@@ -122,13 +122,13 @@ h1{
     height: 40px;
     margin-right: 10px;
 
-    @for i from 1 through length(colors){
+   /* @for i from 1 through length(colors){
       &:nth-child(#{$i}){
         backround-color:nth($colors,$i);
 
-      }
+      }*/
 
-    
+    /*
 
   &:first-child{
     animation: left 1s infinite;
@@ -138,9 +138,9 @@ h1{
   }
   
     }
-  }
+  }*/
   
-  
+  /*
 
 @keyframes left {
   40%{
@@ -158,7 +158,7 @@ h1{
   50%{
     transform: translate(0);
   }
-
+*/
 
   
 }

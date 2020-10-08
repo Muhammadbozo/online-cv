@@ -8,13 +8,13 @@
 </template>
 
 <script>
-import Masthead from "./components/Masthead.vue";
+import index from "./components/index.vue";
 import About from "./components/About.vue";
 import Navbar from "./components/Navbar";
 
 export default {
   components: {
-    Masthead,
+    index,
     About,
     Navbar,
   },

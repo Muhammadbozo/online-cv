@@ -1,6 +1,6 @@
 import Vue from "vue";
 import Router from "vue-router";
-import Masthead from "./components/Masthead";
+import index from "./components/index";
 import About from "./components/About";
 import Resume from "./components/Resume";
 import Projects from "./components/Projects";
@@ -14,8 +14,8 @@ export default new Router({
   routes: [
     {
       path: "/",
-      name: "masthead",
-      component: Masthead,
+      name: "index",
+      component: index,
     },
     {
       path: "/about",
